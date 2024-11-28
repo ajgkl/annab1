@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>A Jornada do Herói Perdido</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>O protagonista recebe um chamado para embarcar em uma missão ou enfrentar um desafio.</p>
+            <button class="btn-proximo" data-proximo="1">Aceitar o chamado</button>
+            <button class="btn-proximo" data-proximo="2">Recusar</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>O protagonista reúne informações, recursos e aliados para se preparar para a jornada.</p>
+            <button class="btn-proximo" data-proximo="3">Ir para a aventura</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>O protagonista fica onde está, e a história termina.</p>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="cenario-passo3.png" alt="">
+            <p>Surge um primeiro obstáculo inesperado, que testa as habilidades do protagonista.</p>
+            <button class="btn-proximo" data-proximo="4">Resolver sozinho: Avança, mas com dificuldades.</button>
+            <button class="btn-proximo" data-proximo="5">Pedir ajuda: Avança com mais facilidade.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>O protagonista é forçado a tomar um caminho mais perigoso devido a circunstâncias imprevistas.</p>
+            <button class="btn-proximo" data-proximo="6">caminho mais curto (risco maior)</button>
+            <button class="btn-proximo" data-proximo="7">caminho mais longo (risco menor)</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Um personagem que parecia confiável é revelado como um traidor ou inimigo.</p>
+            <button class="btn-proximo" data-proximo="8">duelar com o traidor</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>O protagonista enfrenta um inimigo ou desafio que exige todas as suas habilidades.</p>
+            <button class="btn-proximo" data-proximo="9">Perseverar: Avança com um custo (ex.: ferimentos, perda de recursos).</button>
+            <button class="btn-proximo" data-proximo="10">Recuar: Perde tempo e recursos, mas sobrevive.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>O protagonista descobre informações cruciais que mudam seu objetivo ou ampliam a missão.</p>
+            <button class="btn-proximo" data-proximo="11">Continuar explorando</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Depois de uma batalha intensa,o protaginista se rende e leva um golpe no coração o levando a morte.</p>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Os ferimentos do protagonista pioram e ele acaba morrendo.</p>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Uma grande reviravolta acontece, testando o protagonista ao extremo.</p>
+            <button class="btn-proximo" data-proximo="12">Continuar</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>O protagonista enfrenta o vilão principal ou um grande desafio decisivo.</p>
+            <button class="btn-proximo" data-proximo="12">Prosseguir</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>O herói enfrenta o vilão em uma batalha, superando seus medos e usando a experiência obtida.</p>
+            <button class="btn-proximo" data-proximo="13">Concluir aventura</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <img src="cenario-passo13.png" alt="">
+            <p>O protagonista retorna ao seu ponto de origem e se torna o héroi da vila.</p>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
